@@ -1,4 +1,4 @@
-# ui-test-automation-playground
+Playwright TypeScript Framework
 
 The purpose of this website is to provide a platform for sharpening UI test automation skills. Use it to practice with your test automation tool. Use it to learn test automation techniques.
 
@@ -7,23 +7,29 @@ The purpose of this website is to provide a platform for sharpening UI test auto
 Latest version of this website is always available at [uitestingplayground.com](http://uitestingplayground.com).
 
 ## Prerequisites
-- [Node.js](https://nodejs.org)
+- Nodejs: Download and install nodejs from [Node.js](https://nodejs.org)
 - [npm](https://www.npmjs.com/get-npm)
 
-## Usage
+## Execution in local
 
 1. Clone the repository
-2. In the package folder run
+```bash
+git clone git@github.com:viktoriiaTymoshenko/uitap-playwright.git
+```
+2. Navigate to root project directory and install the following
 ```bash
 npm install
 ```
-3. Launch with
+```bash
+npm install --save-dev playwright typescript ts-node @types/node
+```
+3. Launch local server with
 ```bash
 node app.js
 ```
-4. In a browser navigate to
+4. Run tests 
 ```
-http://localhost:3000
+npx playwright test
 ```
 
 ## Software Stack
