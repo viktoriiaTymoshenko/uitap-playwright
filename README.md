@@ -21,7 +21,7 @@ git clone git@github.com:viktoriiaTymoshenko/uitap-playwright.git
 npm install
 ```
 ```bash
-npm install --save-dev playwright typescript ts-node @types/node
+npm install --save-dev playwright typescript ts-node @types/node @faker-js/faker
 ```
 3. Launch local server with
 ```bash
